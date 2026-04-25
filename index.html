@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Darren Dharma Sintarja — Business Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">DDS</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-label reveal">Business Analyst · Data Enthusiast</p>
+      <h1 class="hero-title reveal">
+        Darren<br/><em>Dharma</em><br/>Sintarja
+      </h1>
+      <p class="hero-sub reveal">
+        Turning messy data into clear decisions.<br/>
+        Based in Tangerang, Indonesia.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">See My Work</a>
+        <a href="https://linkedin.com/in/darrends" target="_blank" class="btn-ghost">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="hero-ticker">
+      <span>Excel · SQL · Pandas · Power BI · Looker Studio · Pivot Table · Business Analysis · Data Visualization · </span>
+      <span aria-hidden="true">Excel · SQL · Pandas · Power BI · Looker Studio · Pivot Table · Business Analysis · Data Visualization · </span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-img-placeholder">
+            <img src="img/profile.jpg" alt="Darren Dharma Sintarja" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
+            <div class="img-fallback">D</div>
+          </div>
+          <div class="about-badge">
+            <span class="badge-num">3.44</span>
+            <span class="badge-label">GPA</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title reveal">About Me</h2>
+          <p class="reveal">
+            I'm an aspiring Business Analyst with a growing focus on understanding business operations and structuring complex problems. My approach combines structured analysis, system implementation, and data-informed decision making.
+          </p>
+          <p class="reveal">
+            My background spans entrepreneurship, retail process digitization, and hands-on exposure to business analysis tools — from SQL and Python to Power BI dashboards covering Indonesia's capital markets.
+          </p>
+          <div class="about-meta reveal">
+            <div class="meta-item">
+              <span class="meta-icon">🎓</span>
+              <span>Bina Nusantara University<br/><small>Business Creation, 2021–2025</small></span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">📍</span>
+              <span>Tangerang, Indonesia</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">📜</span>
+              <span>Purwadhika Digital Technology School<br/><small>Business Analyst, 2025</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jan 2024 – Dec 2024</div>
+          <div class="timeline-card">
+            <div class="card-tag">Entrepreneurship Program</div>
+            <h3>Ramen-Kan</h3>
+            <ul>
+              <li>Launched and operated an independent ramen stall as part of an entrepreneurship program.</li>
+              <li>Conducted cost analysis, pricing strategy, and financial planning to maintain operational feasibility.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-card">
+            <div class="card-tag">Part-Time</div>
+            <h3>Benteng Jaya</h3>
+            <ul>
+              <li>Processed daily orders for small retailers, ensuring accuracy and timely fulfillment.</li>
+              <li>Assisted in implementing a simple POS workflow, replacing manual transaction records.</li>
+              <li>Improved order tracking consistency and reduced recording errors through workflow digitization.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-tag">Power BI · SQL · Python</span>
+            <span class="project-year">2025</span>
+          </div>
+          <h3>IDX Stock Market Dashboard</h3>
+          <p>
+            Comprehensive data pipeline and dashboard covering Indonesia's capital market. Collected and processed multi-year historical trading data to surface broker behavior patterns and smart money flows.
+          </p>
+          <ul class="project-highlights">
+            <li>📊 Collected 90 broker daily transactions across 5 years of market data</li>
+            <li>🧠 Developed broker categorization model based on smart money movement patterns</li>
+            <li>📈 Compiled OHLCV (Open, High, Low, Close, Volume) data for all IDX-listed stocks</li>
+            <li>🏢 Mapped all IDX-registered companies including subsidiaries with complete company metadata</li>
+            <li>⚙️ Built automated daily data collection script for continuous pipeline updates</li>
+            <li>🗄️ Defined data schema and loaded structured datasets into local SQL Server</li>
+            <li>📉 Designed interactive Power BI dashboard for visual exploration and decision support</li>
+          </ul>
+          <div class="project-footer">
+            <span class="project-status">🔒 Private Data · Dashboard Available on Request</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <span class="project-tag">Python · Data Analysis</span>
+            <span class="project-year">2024</span>
+          </div>
+          <h3>Airbnb Bangkok Listing Analysis</h3>
+          <p>
+            Capstone project analyzing Airbnb supply and demand dynamics in Bangkok's short-term rental market, identifying actionable pricing and market insights.
+          </p>
+          <ul class="project-highlights">
+            <li>🔍 Researched pricing factors: location, property type, reviews, and demand trends</li>
+            <li>🗂️ Classified listings into Dead, Blocked, Unreviewed, and Healthy segments</li>
+            <li>✅ Identified a healthy active market cluster with high review share and booking consistency</li>
+          </ul>
+          <div class="project-footer">
+            <a href="#" class="project-link" aria-label="View project">View Project ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h4>Data & Analytics</h4>
+          <div class="skill-pills">
+            <span>SQL</span><span>Pandas</span><span>Excel</span><span>Pivot Table</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Visualization</h4>
+          <div class="skill-pills">
+            <span>Power BI</span><span>Looker Studio</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Business</h4>
+          <div class="skill-pills">
+            <span>Cost Analysis</span><span>Pricing Strategy</span><span>Process Digitization</span><span>Financial Planning</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4>Currently Learning</h4>
+          <div class="skill-pills learning">
+            <span>Python Automation</span><span>Data Modeling</span><span>Business Requirements</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-box reveal">
+        <h2>Let's Connect</h2>
+        <p>Open to business analyst roles, data projects, and analytical collaborations.</p>
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/darrends" target="_blank" class="contact-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:your.email@gmail.com" class="contact-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Darren Dharma Sintarja · Built with HTML, CSS & JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
